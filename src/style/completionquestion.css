@@ -1,0 +1,28 @@
+.completionquestion-container {
+  padding: 1rem;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+}
+
+.question-wrapprer {
+  margin: 1rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  animation: moveInLeft 1s linear;
+}
+
+.completion_input {
+  max-width: 12rem;
+  font-size: 2rem;
+  padding: 0.2rem;
+  text-align: start;
+  height: 2.5rem;
+  animation: moveInLeft 1s linear;
+
+}

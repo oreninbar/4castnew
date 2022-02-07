@@ -1,0 +1,63 @@
+.towingquestion-container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+}
+
+.board {
+  height: fit-content;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  animation: moveInT 2s linear;
+}
+
+.card-board.board {
+  animation: moveInTop 1s linear;
+}
+.answers-board.board {
+  grid-template-columns: repeat(4, fit-content);
+  gap: 0;
+  animation: moveInBottom 1s linear;
+}
+
+.fas.fa-plus {
+  padding: 0.5rem;
+  font-size: 2.3rem;
+}
+.answers-board .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@keyframes moveInBottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes moveInTop {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}

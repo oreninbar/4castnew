@@ -1,0 +1,11 @@
+.square-container {
+  height: 10rem;
+  width: 10rem;
+  border: 0.1rem solid rgb(141, 141, 141);
+  background: rgb(238, 237, 237);
+}
+
+.pic{
+  height: inherit;
+  width: inherit;
+}

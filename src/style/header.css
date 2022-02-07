@@ -1,0 +1,21 @@
+.header-container {
+  position: absolute;
+  margin-top: .5rem;
+  top: 0;
+  height: 7vh;
+  width: 100vw;
+  display: grid;
+  padding: 0.3rem;
+  grid-template-columns: 20% 60% 20%;
+  align-items: center;
+  text-align: center;
+}
+
+.header-container .logo {
+justify-self: center;
+  height: 3rem;
+  grid-column: 2/3;
+}
+.header-container .user-name {
+  grid-column: 3/4;
+}

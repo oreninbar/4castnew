@@ -1,0 +1,37 @@
+.pagedots-container {
+  position: fixed;
+  bottom: 2rem;
+  height: 5rem;
+  width: 100rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.dots-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  margin: 0.5rem;
+  height: 1rem;
+  width: 1rem;
+  border: 0.2rem solid rgb(120, 120, 139);
+  border-radius: 50%;
+}
+
+.dot.one {
+  background-color: rgb(120, 139, 126);
+}
+
+.dot.two {
+  background-color: rgb(120, 120, 139);
+}
+
+.dot.three {
+  background-color: rgb(120, 120, 139);
+}

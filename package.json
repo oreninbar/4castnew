@@ -10,7 +10,7 @@
     "react-dnd": "^15.1.0",
     "react-dnd-html5-backend": "^15.1.0",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "^3.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -40,5 +40,13 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oreninbar/4castnew.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oreninbar/4castnew/issues"
+  },
+  "homepage": "https://github.com/oreninbar/4castnew#readme"
 }
